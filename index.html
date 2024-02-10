@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<style>
+		/* Style the navigation bar */
+		nav {
+			background-color: #f9cc88;
+			overflow:hidden;
+		}
+
+    nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+		/* Style the links inside the navigation bar */
+		nav a {
+			float: left;
+			color: rgb(86, 23, 80);
+			text-align: center;
+			padding: 12px 16px;
+			text-decoration: none;
+			font-size: 17px;
+    
+		}
+
+		/* Change the color of links on hover */
+		nav a:hover {
+			background-color: #fa4e14;
+			color: rgb(0, 0, 0);
+      
+		}
+
+		/* Add a color to the active/current link */
+		nav a.active {
+			background-color: #e151a0;
+			color: rgb(6, 6, 6);
+    
+		}
+
+		/* Style the dropdown button */
+		.dropdown {
+			float: left;
+			overflow: hidden;
+		}
+
+		/* Style the dropdown button's icon */
+		.dropdown i {
+			font-size: 24px;
+			color: white;
+            overflow: hidden;
+		}
+
+		/* Style the dropdown menu */
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #d184bf;
+			min-width: 160px;
+			z-index: 1;
+            overflow: hidden;
+		}
+
+		/* Style the links inside the dropdown menu */
+		.dropdown-content a {
+			float:none;
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+            overflow: hidden;
+		}
+
+		/* Change the color of dropdown links on hover */
+		.dropdown:hover .dropdown-content {  
+			background-color: #fa8e8e;
+            display: block;
+		}
+
+
+        table {
+			width: 80%;
+			margin: auto;
+			border-collapse: collapse;
+		}
+
+		table, th, td {
+			border: 1px solid black;
+			padding: 10px;
+			text-align: left;
+		}
+
+		th {
+			background-color: #ddd;
+		}
+
+        .container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Style for the button */
+.button {
+
+		  border: none;
+		  color: white;
+		  padding: 10px 20px;
+		  text-align: center;
+		  text-decoration: none;
+		  display: inline-block;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  cursor: pointer;
+		}
+
+section {
+  width: 70%;
+  padding: 20px;
+}
+
+aside {
+  width: 30%;
+  padding: 20px;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+	</style>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 70%;
+        margin: auto;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #dddddd;
+    }
+
+    aside {
+        float: right;
+        width: 30%;
+        margin-top: 50px;
+        margin-right: 5%;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+</style>
+</head>
+<body>
+    <nav>
+        <!-- Create the navigation bar -->
+        <ul>
+            <a href="#Home">Home</a>
+            <div class="dropdown">
+            <a>Explore</a>
+                <div class="dropdown-content ">
+                  <a class="button" onclick="scrollToTopic()">Spiritual Places in Maharashtra</a>
+                    <a class="button" onclick="scrollToTopic1()">Heritage</a>
+                    <a class="button" onclick="scrollToTopic2()">Nature</a>
+                  
+                </div>
+            </div>
+            <a href="#Contact">Contact</a>
+            <a href="#About">About</a>
+        </ul>
+    </nav>
+    <h1 ><font color="black"  size="300"><b><i><center>LET'S TRAVEL</center></i></font></h1>
+    <center><img src="C:\Users\DELL\OneDrive\Desktop\ayush\landing page\image.jpg" width="900" height="500"></center>
+    
+    <div class="container">
+    <section>
+        <p>Vidarbha has lush green deciduous forests which are home to a variety of flora and fauna. These attract a large number of visitors each year. All Maharashtra’s tiger reserves are located in Vidarbha. They are Melghat Tiger Reserve in Amravati district, Tadoba Andhari Tiger Reserve in Chandrapur district and Pench Tiger Reserve in Nagpur district.</p>
+        <p>Although the western region of the Vidarbha is poor in natural resources in comparison with the eastern region, Maharashtra’s oldest National Park created in 1955, the Tadoba Andhari Tiger Reserve is in the east. It is also one of India’s 25 Project Tiger Reserves. The National Park is 623 km in area, consisting of two forested rectangles of the Tadoba and Andhari range.</p>
+        <p>Aside from around 50 tigers, Tadoba Tiger Reserve is home to rare Indian wildlife like leopards, sloth bears, gaur, wild dogs, hyenas, civet and jungle cats, and many species of Indian deer like sambar, cheetal, nilgai, and barking deer. The Tadoba lake sustains the Marsh Crocodile, which were once common all over Maharashtra. Tadoba is also an ornithologist’s paradise with a varied diversity of aquatic birdlife, and Raptors.</p>
+        <p>Thickly clad hills form the northern and western boundary of the Tiger Reserve. To the southwest is a huge lake which acts as a buffer between the park’s forest and the extensive farmland which extends up to Irai Lake.</p>
+        <p>Adjacent to the core forested hills is the Chichghat valley which hosts the forest lodge www.tigertrails.in The Tadoba Tiger Reserve is an undisturbed forest not visited by many tourists. Tadoba Tiger Reserve is open throughout the year and is at three-hour road journey from the city of Nagpur.</p>
+        <p>We are sure you will cherish fond memories of the conference and here we are ready to welcome you to the Orange City. Planned tours, both Pre &amp; Post conference, for the delegates would provide its own bit of Joy &amp; Fun.</p>
+      </section>
+      
+      
+      
+      
+      
+      
+    <aside style="background-color: #fbef9e;">
+        <p><strong>Getting to Nagpur</strong></p>
+        <ul>
+            <li><strong>By Air:</strong> Nagpur has its own airport named Dr. Babasaheb Ambedkar International Airport which is situated only at the distance of 6 kms from the city. Nagpur is well linked to rest of the main cities of country through regular flights from Mumbai, Kolkata, Chennai and Delhi.</li>
+            <li><strong>By Road:</strong> Road connectivity to Nagpur from rest of the major cities of the country is also well-developed. Basically, there are two National Highways intersecting the Nagpur city and they are NH-6 connecting Mumbai to Kolkata and NH-7 linking Kanyakumari and Varanasi.</li>
+            <li><strong>By Rail:</strong> Rail connectivity to Nagpur is also mind-blowing and appreciable. The city has its own railway station and from there one can get trains from Nagpur to rest main cities of India like Hyderabad, Delhi, Calcutta, Chennai, Jammu, Patna, Indore, Cochin, etc.</li>
+        </ul>
+    </aside>
+</div>
+<br>
+<br>
+<br>
+   
+    <!-- Topic section with an ID of "topic" -->
+	<div id="topic" >
+		<center><h1>Spiritual Places in Maharashtra</h1></center>
+	
+
+
+    <center><a href="file:///C:/Users/DELL/OneDrive/Desktop/nagpur%20travel%20web/page%201.html"><b><i><h>Only a special trip to nagpur</h></i></b></a></center>
+    <br> <br>
+    
+	<table>
+        <thead>
+            <tr>
+                <th>Place</th>
+                <th>District</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="https://www.via-india.com/tourisms/adasa/"><b>Adasa</b></a><br><img src="C:\Users\DELL\OneDrive\Desktop\ayush\landing page\adasa.webp" width="200" height="150"></td>
+                <td>Nagpur</td>
+                <td>The quaint village of Adasa, located at a distance of 43 km from Nagpur, is known for its famous Ganesh temple.</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.via-india.com/tourisms/kamptee/"><b>Kamptee</b></a><br><img src="C:\Users\DELL\OneDrive\Desktop\front end\nagpur travel web\kampteeImage.jpg" width="200" height="150"></td>
+                <td>Nagpur</td>
+                <td>Home to the famous Dragon Palace Temple, Kamptee is one of the most visited spiritual places in Nagpur.</td>
+            </tr>
+            <tr>
+                <td><a href="https://www.via-india.com/tourisms/ramtek/"><b>Ramtek</b></a><br><img src="C:\Users\DELL\OneDrive\Desktop\ayush\landing page\ramtek.webp" width="200" height="150"></td>
+                <td>Nagpur</td>
+                <td>Blessed with verdant hills, pristine lakes and ancient temples, Ramtek is a popular spiritual destination near Nagpur.</td>
+            </tr>
+        </tbody>
+    </table></div>
+
+
+    <br>
+        <br>
+        <br>
+        <!-- Topic section with an ID of "topic" -->
+	<div id="topic1" >
+		<center><h1>Heritage</h1></center>
+		<table>
+      <tr>
+        <th>Heritage</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Dhamma Chakra Stupa<br><img src="C:\Users\DELL\OneDrive\Desktop\ayush\landing page\dhammaChakraStupa.jpg" width="200" height="150"></td>
+        <td>The Dhamma Chakra Stupa or Deekshabhoomi is a popular Buddhist...</td>
+      </tr>
+      <tr>
+        <td>Mansar<br><img src="C:\Users\DELL\OneDrive\Desktop\ayush\landing page\mansar.avif" width="200" height="150"></td>
+        <td>Lying on the outskirts of the city, Mansar is a one-of-its-kind...</td>
+      </tr>
+      <tr>
+        <td>Nagardhan Fort<br><img src="C:\Users\DELL\OneDrive\Desktop\ayush\landing page\nagardhanFort.jpg" width="200" height="150"></td>
+        <td>Lying in the periphery of the city, the ancient town of Nagardhan...</td>
+      </tr>
+      
+      </table>
+
+	</div>
+    
+        <br>
+        <br>
+        <br>
+        <!-- Topic section with an ID of "topic" -->
+	<div id="topic2" >
+		<h1><center>Nature</center></h1>
+		<table>
+      <tr>
+        <tr>
+        <th><center>Nature</center></th>
+        <th>Description</th>
+      
+      </tr>
+      <tr>
+        <td>Ambazari Lake and Garden</td>
+        <td>A prime attraction for tourists visiting Nagpur, Ambazari Lake is...</td>
+      </tr>
+      <tr>
+        <td>Dhapewada Lake</td>
+        <td>Situated on the banks of River Chandrabhaga, the beautiful little...</td>
+      </tr>
+      <tr>
+        <td>Khindsi Talao</td>
+        <td>A popular getaway from Nagpur, Khindsi Talao or Khindsi Lake is o...</td>
+      </tr>
+      <tr>
+        <td>Kanha Kisli</td>
+        <td>Situated 230 kms. from Nagpur, Kanha National Park has earned the...</td>
+      </tr>
+      <tr>
+        <td>Tadoba National Park</td>
+        <td>Situated 205 kms. from Nagpur Tadoba National Park is among the m...</td>
+      </tr>
+      <tr>
+        <td>Bhamragarh Wildlife Sanctuary</td>
+        <td>A delight for nature-lovers and wildlife enthusiasts, Bhamragarh...</td>
+      </tr>
+      <tr>
+        <td>Bor Wildlife Sanctuary</td>
+        <td>Covering an area of 61 sq km, Bor is a vast wildlife sanctuary th...</td>
+      </tr>
+
+
+  </table>
+	</div>
+  <br>
+<br>
+<br>
+<br>
+
+        
+        
+    <footer>
+      <nav text align="left">
+        <table>
+          <tr>
+            
+              <td>
+                <ul>
+                <li><a href="#">Our Vidarbha</a></li>
+                <li><a href="#">Forums</a></li>
+                <li><a href="#">Membership</a></li>
+                <li><a href="#">Members Directory</a></li>
+                <li><a href="#">Downloads</a></li>
+                <li><a href="#">Helpdesk</a></li>
+              </ul>
+            
+            </td>
+            
+            <td>
+              <ul>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Forthcoming Events</a></li>
+              <li><a href="#">Past Events</a></li>
+              <li><a href="#">Press Release</a></li>
+              <li><a href="#">Links</a></li>
+              <li><a href="#">Maharashtra Government</a></li>
+            
+            </ul>
+          </td>
+            
+          <td>
+            <ul>
+            <li><a href="#">Central Government</a></li>
+            <li><a href="#">State Government and Union Territories</a></li>
+            <li><a href="#">Union Government</a></li>
+            <li><a href="#">Chambers &amp; Association</a></li>
+            <li><a href="#">Science &amp; Research</a></li>
+            <li><a href="#">Bank</a></li>
+          </ul>
+        </td>
+            
+        <td>
+          <ul>
+          <li><a href="#">Art &amp; Culture</a></li>
+          <li><a href="#">Indian Mission/Posts</a></li>
+          <li><a href="#">Contact</a></li>
+          <ul>
+      </td>
+            
+          </tr>
+        </table>
+    
+        <div class="contact-info">
+          <p>1st Floor, Udyog Bhawan, Civil Lines, Nagpur - 440 001. INDIA.</p>
+          <p>Phone : +91 712 2561211</p>
+          <p>Fax : +91 712 2545190</p>
+          <p>Email : info@via-india.com</p>
+        </div>
+    
+        <div class="copyright">
+          <p>&copy; Copyright 2022 by Vidarbha Industries Association
+        </div>
+      </nav>
+    </footer>
+
+    <script>
+        function scrollToTopic() {
+          document.querySelector('#topic').scrollIntoView({
+            behavior: 'smooth'
+          });
+       }
+        function scrollToTopic1() {
+          document.querySelector('#topic1').scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+        function scrollToTopic2() {
+          document.querySelector('#topic2').scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+    </script>
+</body>
+</html>
